@@ -1,70 +1,10 @@
-
 <!DOCTYPE html>
 <html lang="en">
-<head>
-<meta charset="utf-8">
-<title>Home Page 1</title>
-</head>
-<body>
-	<header>
-      <style>
-        ul {
-          list-style-type: none;
-          margin: 0;
-          padding: 0;
-          overflow: hidden;
-          background-color: #E85856;
-        }
-          li {
-            float: left;
-            } 
-            li a {
-              display: block;
-              color: white;
-              text-align: center;
-              padding: 14px 16px;
-              text-decoration: none;
-            }
-          </style>
-        </header>
-      <body>
+<head> 
+  <meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="stylesheet.css">  
+  <style>
 
-  <ul>
-          <li><a class="active" href="index.html">Home Page</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="tools.html">Tools</a></li>
-          <li><a href="seeds.html">Seeds</a></li>          
-  </ul>
-      </body>
-    <div style="background-color:#630907">
-      <h1 style="color:white">Simpson Garden Center</h1>
-    </div>
-	</header>
-<div style="background-color:#B3100D">
-  <h1 style="color:black">Home Page</h1>
-</div>
-
-<p>Welcome to the Simpson Garden Center!</p>
-<p>We have everything you need to know about our store on our website- everything rom garden tools, to seeds, to store hours.</p>
-<p>Our purpose is to spread the love of gardening and help give others a green thumb! We'll soon be expanding!</p>
-
-<p> If you want to know more about us, feel free to visit the about page. Otherwise our store hours are listed below. Please drop in any time we are open. </p>
-<style>
-  body {
-    border-style: solid;
-    border-width: 2px;
-    border-color: #630907;
-  }
-  section {
-    border-style: solid;
-    border-width: 2px;
-    border-color: #E85856;
-    margin: 3px;
-    padding: 3px;
-
-    left: 30px;
-    top: 30px;
-  }
     .word_class{
       border-style: solid;
       border-width: 2px;
@@ -81,35 +21,60 @@
       margin-right:0;
     }
 </style>
+<title>Home Page 1</title>
+</head>
 <body>
+	<header>
+  <ul>
+          <li><a class="active" href="index.html">Home Page</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="tools.html">Tools</a></li>
+          <li><a href="seeds.html">Seeds</a></li>          
+  </ul>
+    <div style="background-color:#630907">
+      <h1 style="color:white">Simpson Garden Center</h1>
+    </div>
+	</header>
+<div style="background-color:#B3100D">
+  <h1 style="color:black">Home Page</h1>
+</div>
+
+<p>Welcome to the Simpson Garden Center!</p>
+<p>We have everything you need to know about our store on our website- everything rom garden tools, to seeds, to store hours.</p>
+<p>Our purpose is to spread the love of gardening and help give others a green thumb! We'll soon be expanding!</p>
+
+<p> If you want to know more about us, feel free to visit the about page. Otherwise our store hours are listed below. Please drop in any time we are open. </p>
   <section>
     <h3>Day and Hours</h3>
-    <div class="word_class" id-"word_1">Sunday</div>
-    <p>8:00 a.m.-6:00 p.m.</p>
-    <div class="word_class" id-"word_1">Monday</div>
-    <p>7:00 a.m.-8:00 p.m.</p>
-    <div class="word_class" id-"word_1">Tuesday</div>
-    <p>7:00 a.m.-8:00 p.m.</p>
+    <table>
+      <tr>
+    <td class="word_class" id="word_1">Sunday</td>
+    <td>8:00 a.m.-6:00 p.m.</td>
+  </tr><tr>
+    <td class="word_class">Monday</td>
+    <td>7:00 a.m.-8:00 p.m.</td>
+  </tr><tr>
+    <td class="word_class">Tuesday</td>
+    <td>7:00 a.m.-8:00 p.m.</td>
+    </tr>
+  <tr>
+    <td class="word_class">Wednesday</td>
+    <td>7:00 a.m.-8:00 p.m.</td>
   </tr>
   <tr>
-    <div class="word_class" id-"word_1">Wednesday</div>
-    <p>7:00 a.m.-8:00 p.m.</p>
+    <td class="word_class">Thursday</td>
+    <td>7:00 a.m.-8:00 p.m.</td>
   </tr>
   <tr>
-    <div class="word_class" id-"word_1">Thursday</div>
-    <p>7:00 a.m.-8:00 p.m.</p>
+    <td class="word_class">Friday</td>
+    <td>7:00 a.m.-8:00 p.m.</td>
   </tr>
   <tr>
-    <div class="word_class" id-"word_1">Friday</div>
-    <p>7:00 a.m.-8:00 p.m.</p>
+    <td class="word_class">Saturday</td>
+    <td>7:00 a.m.- 6:00 p.m.</td>
   </tr>
-  <tr>
-    <div class="word_class" id-"word_1">Saturday</div>
-    <p>7:00 a.m.- 6:00 p.m.</p>
-  </tr>
-
+  </table>
 </section>
-</body>
 <footer>
   Copyright 2020 by Caroline Oberg
 </footer>
