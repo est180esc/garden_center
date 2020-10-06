@@ -2,43 +2,43 @@
 <html lang="en">
 <head> 
   <meta charset="utf-8">
-  <link rel="stylesheet" type="text/css" href="stylesheet.css">  
-  <style>
-
-    .word_class{
-      border-style: solid;
-      border-width: 2px;
-      margin:3px;
-      padding:3px;
-
-      display: inline;
-    }
-    #word_2 {
-      margin: auto;
-    }
-    #word_3 {
-      margin-left:auto;
-      margin-right:0;
-    }
-</style>
-<title>Home Page 1</title>
+  <title>Home Page 1</title>
+  <meta name="viewpoint" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">  
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootswatch/4.5.2/sandstone/bootstrap.min.css">
 </head>
 <body>
-	<header>
-  <ul>
-          <li><a class="active" href="index.html">Home Page</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="tools.html">Tools</a></li>
-          <li><a href="seeds.html">Seeds</a></li>          
-  </ul>
-    <div style="background-color:#630907">
-      <h1 style="color:white">Simpson Garden Center</h1>
-    </div>
-	</header>
-<div style="background-color:#B3100D">
-  <h1 style="color:black">Home Page</h1>
-</div>
+   <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand btn btn-primary" href="#">Garden Center</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
 
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link btn btn-sucess" href="#">Home <span class="sr-only">(current)</span></a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link btn btn-info" href="about.html">About</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="location.html">Location</a>
+          </li>
+        </ul>
+      </div>
+    </nav> 
+<div class="container">
+  <div class="jumbotron">
+      <h1 class="display-4">Simpson Garden Center</h1>
+      <hr class="my-4">
+  </div>
+  <div style="background-color:maroon">
+  <h2 style="color:black">Home Page</h2>
+  </div>
 <p>Welcome to the Simpson Garden Center!</p>
 <p>We have everything you need to know about our store on our website- everything rom garden tools, to seeds, to store hours.</p>
 <p>Our purpose is to spread the love of gardening and help give others a green thumb! We'll soon be expanding!</p>
@@ -75,8 +75,10 @@
   </tr>
   </table>
 </section>
+<div class="alert alert-primary" role="alert">alert contact info (click here)</div>
 <footer>
   Copyright 2020 by Caroline Oberg
 </footer>
+</div>
 </body>
 </html>
